@@ -39,6 +39,7 @@ targets: ["localhost:9100"]
 Luego se integró Prometheus como Data Source en Grafana para la visualización.
 ---
 📊 Dashboard
+
 Se creó un dashboard único con múltiples paneles para visualizar:
 Uso de CPU (%)
 Uso de memoria (%)
@@ -49,6 +50,7 @@ Load del sistema
 Esto permite tener una visión clara y en tiempo real del estado del servidor.
 ---
 ⚙️ Desafíos durante la implementación
+
 Durante el laboratorio surgieron distintos desafíos típicos de un entorno real:
 Configuración inicial de repositorios y paquetes
 Ajustes en la configuración de Prometheus
@@ -57,6 +59,7 @@ Manejo de procesos en Linux
 Organización de dashboards en Grafana
 ---
 📚 Aprendizajes
+
 Implementación de un stack de monitoreo completo
 Uso de Prometheus y su modelo de scraping
 Creación de dashboards en Grafana
