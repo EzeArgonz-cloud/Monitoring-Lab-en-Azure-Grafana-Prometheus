@@ -1,6 +1,4 @@
-Introducción
-Este proyecto consiste en la implementación de un sistema de monitoreo en la nube utilizando Grafana y Prometheus sobre una máquina virtual en Azure.
-El objetivo fue comprender cómo recolectar, procesar y visualizar métricas de un sistema en tiempo real, utilizando herramientas ampliamente usadas en entornos productivos.
+Se implementó una solución de monitoreo basada en Prometheus y Grafana, desplegada sobre máquinas virtuales, con el objetivo de centralizar métricas y brindar visibilidad operativa a los equipos mediante dashboards accesibles y personalizados.
 ---
 Arquitectura
 Flujo de datos:
@@ -57,15 +55,6 @@ Ajustes en la configuración de Prometheus
 Validación de conectividad entre servicios
 Manejo de procesos en Linux
 Organización de dashboards en Grafana
----
-Aprendizajes
-
-Implementación de un stack de monitoreo completo
-Uso de Prometheus y su modelo de scraping
-Creación de dashboards en Grafana
-Conceptos básicos de administración en Linux
-Configuración de red en entornos cloud (Azure)
-Resolución de problemas en entornos reales
 ---
 Conclusión
  logró desplegar un sistema funcional de monitoreo en la nube, con métricas en tiempo real y visualización centralizada.
